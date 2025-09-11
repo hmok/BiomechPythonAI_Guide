@@ -40,7 +40,8 @@ c3d_candidates = glob.glob("sample_data/c3d_zip/*.c3d") + glob.glob("sample_data
 assert c3d_candidates, "No C3D file found!"
 c3d_path = c3d_candidates[0]
 
-c3d = ezc3d.c3d(c3d_path)
+#to simplify it as some c3d files not working here, they are quite old ones
+c3d = ezc3d.c3d('/content/sample_data/c3d_zip/Eb015pi.c3d') #c3d = ezc3d.c3d(c3d_path) 
 points = c3d["data"]["points"]             # shape: 4 x n_markers x n_frames
 labels = list(c3d["parameters"]["POINT"]["LABELS"]["value"])
 
