@@ -1,0 +1,31 @@
+flowchart TD
+  classDef start fill:#1f2937,color:#fff,stroke:#111,stroke-width:1px
+  classDef decision fill:#fde68a,color:#111,stroke:#a16207,stroke-width:1px
+  classDef step fill:#e5e7eb,color:#111,stroke:#9ca3af,stroke-width:1px
+  classDef data fill:#dbeafe,color:#111,stroke:#60a5fa,stroke-width:1px
+  classDef plate fill:#dcfce7,color:#065f46,stroke:#10b981,stroke-width:1px
+  classDef out fill:#f3e8ff,color:#6b21a8,stroke:#a78bfa,stroke-width:1px
+  classDef hint fill:#fff7ed,color:#7c2d12,stroke:#fdba74,stroke-width:1px
+
+  A[Start with c3d mapping]:::start --> B{Choose data path}:::decision
+
+  subgraph Kinematics path
+    direction TB
+    C[Data points to numpy array]:::data --> E[Names from Parameters POINT LABELS]:::step
+    E --> G[Build DataFrame then to csv]:::out
+  end
+
+  subgraph Analogs path
+    direction TB
+    D[Data analogs to numpy array]:::data --> F[Names from Parameters ANALOG LABELS]:::step
+    F --> G
+    D --> H{Force plates present}:::decision
+    H -->|Yes| I[FORCE_PLATFORM group to CHANNEL map]:::plate --> J[Compute GRF COP M per plate]:::plate --> G
+    H -->|No| G
+  end
+
+  B -->|Markers| C
+  B -->|Analog signals such as GRF or EMG| D
+
+  L[Tip  labels live in Parameters groups]:::hint -.-> E
+  L -.-> F
