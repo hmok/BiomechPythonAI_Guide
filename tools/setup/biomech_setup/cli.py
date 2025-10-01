@@ -6,7 +6,7 @@ def sh(cmd: str):
     subprocess.check_call(cmd, shell=True)
 
 def ensure_deps():
-    # Safety net for notebook users. If installed via pip, deps are already there.
+    # Safety net for notebook users. If installed via pip, deps should be present.
     try:
         import pandas  # noqa: F401
         import ezc3d   # noqa: F401
@@ -47,7 +47,6 @@ def main():
             fetch(BASE + fname, dest)
             local_files.append(dest)
 
-        # Execute each chapter prep script
         for f in local_files:
             run_file(f)
 
