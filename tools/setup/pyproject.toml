@@ -8,10 +8,7 @@ version = "0.1.0"
 description = "Helper CLI to fetch and run chapter prep scripts"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = [
-  "pandas",
-  "ezc3d",
-]
+dependencies = ["pandas", "ezc3d"]
 
 [project.scripts]
 biomech-setup = "biomech_setup.cli:main"
