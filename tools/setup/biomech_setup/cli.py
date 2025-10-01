@@ -6,7 +6,7 @@ def sh(cmd: str):
     subprocess.check_call(cmd, shell=True)
 
 def ensure_deps():
-    # Safety net for notebook users. If installed via pip, deps should be present.
+    # Safety net for notebook users. If installed via pip, deps should already be present.
     try:
         import pandas  # noqa: F401
         import ezc3d   # noqa: F401
