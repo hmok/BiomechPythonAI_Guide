@@ -1,5 +1,5 @@
 # Base points to the raw files in your repo
-BASE = "https://raw.githubusercontent.com/hmok/BiomechPythonAI_Guide/main/notebooks/"
+BASE = "https://raw.githubusercontent.com/hmok/BiomechPythonAI_Guide/tree/main/notebooks/"
 
 # Map chapter numbers to the prep scripts that should be fetched and executed.
 # Add more entries as you create them.
