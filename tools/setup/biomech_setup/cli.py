@@ -6,7 +6,6 @@ def sh(cmd: str):
     subprocess.check_call(cmd, shell=True)
 
 def ensure_deps():
-    # Safety net for notebook users. If installed via pip, deps should already be present.
     try:
         import pandas  # noqa: F401
         import ezc3d   # noqa: F401
@@ -27,7 +26,7 @@ def resolve_chapters(arg: str):
     return [c.strip() for c in arg.split(",") if c.strip()]
 
 def main():
-    p = argparse.ArgumentParser(description="Setup data and code for BiomechPythonAI book chapters.")
+    p = argparse.ArgumentParser(description="Setup data for BiomechPythonAI book chapters.")
     p.add_argument("--chapters", default="1,2", help="Comma list like '1,2' or 'all'")
     args = p.parse_args()
 
