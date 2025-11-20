@@ -2,7 +2,7 @@
 
 📘 *A Hands-On Guide to Biomechanics Data Analysis with Python and AI*
 
-Welcome to the official code and content repository for the book **"A Hands-On Guide to Biomechanics Data Analysis with Python and AI"** — your practical companion for working with motion capture, biomechanics, and time-series data using Python, Google Colab, and AI-powered tools like ChatGPT.
+Welcome to the official code and content repository for the book **"[A Hands-On Guide to Biomechanics Data Analysis with Python and AI](https://amzn.asia/d/caOmfcr)"** — your practical companion for working with motion capture, biomechanics, and time-series data using Python, Google Colab, and AI-powered tools like ChatGPT.
 
 ---
 
