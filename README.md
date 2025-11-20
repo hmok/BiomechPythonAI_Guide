@@ -17,6 +17,14 @@ Welcome to the official code and content repository for the book **"A Hands-On G
 
 ---
 
+## 📘 Book & Tools
+
+This repository is the companion codebase for **A Hands-On Guide to Biomechanics Data Analysis with Python and AI** — a clear, practical workflow for loading, parsing, analyzing, and visualizing human-movement data using Python, Google Colab, and modern AI tools.
+
+**Amazon (book)** → https://amzn.asia/d/caOmfcr  
+**PoseIQ (lightweight tools)** → https://poseiq.com
+
+---
 ## 📁 Directory Structure
 
 ```plaintext
@@ -29,13 +37,3 @@ BiomechPythonAI_Guide/
 ├── requirements.txt         # Python dependencies
 ├── LICENSE
 └── README.md
-
-
----
-
-## 📘 Book & Tools
-
-This repository is the companion codebase for **A Hands-On Guide to Biomechanics Data Analysis with Python and AI** — a clear, practical workflow for loading, parsing, analyzing, and visualizing human-movement data using Python, Google Colab, and modern AI tools.
-
-**Amazon (book)** → https://amzn.asia/d/caOmfcr  
-**PoseIQ (lightweight tools)** → https://poseiq.com
