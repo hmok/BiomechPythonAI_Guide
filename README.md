@@ -29,3 +29,6 @@ BiomechPythonAI_Guide/
 ├── requirements.txt         # Python dependencies
 ├── LICENSE
 └── README.md
+
+**Amazon** → [https://lnkd.in/gvKB4ENN](https://amzn.asia/d/caOmfcr)
+**PoseIQ** → https://poseiq.com
