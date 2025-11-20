@@ -34,5 +34,5 @@ BiomechPythonAI_Guide/
 
 This repo is the companion code for **A Hands On Guide to Biomechanics Data Analysis with Python and AI** – a clear, practical workflow for loading, parsing, analyzing, and visualizing human-movement data with Python, Google Colab, and AI.
 
-**Amazon (book)** → [https://amzn.asia/d/caOmfcr](https://amzn.asia/d/caOmfcr)  
-**PoseIQ (lightweight tools)** → [https://poseiq.com](https://poseiq.com)
+**Amazon (book)** → https://amzn.asia/d/caOmfcr  
+**PoseIQ (lightweight tools)** → https://poseiq.com
