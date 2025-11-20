@@ -30,5 +30,5 @@ BiomechPythonAI_Guide/
 ├── LICENSE
 └── README.md
 
-**Amazon** → [https://lnkd.in/gvKB4ENN](https://amzn.asia/d/caOmfcr)
-**PoseIQ** → https://poseiq.com
+**Amazon** → [https://amzn.asia/d/caOmfcr](https://amzn.asia/d/caOmfcr)
+**PoseIQ** → [https://poseiq.com](https://poseiq.com)
